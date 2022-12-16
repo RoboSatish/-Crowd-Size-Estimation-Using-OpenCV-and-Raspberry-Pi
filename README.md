@@ -1,1 +1,3 @@
-# -Crowd-Size-Estimation-Using-OpenCV-and-Raspberry-Pi
+# Crowd-Size-Estimation-Using-OpenCV-and-Raspberry-Pi
+
+The most common applications of Digital Image Processing are object detection, Face Recognition, and people counter. So in this tutorial, we are going to build an OpenCV crowd counting using Raspberry Pi and ThingSpeak. Here the pi camera module will be used for continuously capturing the frames and then these frames will be processed with HOG (Histogram Oriented Object descriptor) to detect the objects in the image. After this, these frames will be compared with OpenCV’s pre-trained model for people detection. The people counting will be displayed on the ThingSpeak channel which can be monitored from anywhere in the world.
